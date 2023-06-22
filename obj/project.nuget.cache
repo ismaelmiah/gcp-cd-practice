@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PUphcOUMxWhHRnmIjaQNX36LXA0vyVQrX0vUA+3mV8NA3uVVKA2loHFi+inBdx9IosSnl2NfTVwRkJlDXbp3pA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Google-Continuos-Development\\Google-Continuos-Development.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}
