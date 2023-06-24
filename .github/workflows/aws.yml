@@ -6,13 +6,13 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: ap-southeast-1                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: de-ekta-practice-name           # set this to your Amazon ECR repository name
-  ECS_SERVICE: aws-practice-service                 # set this to your Amazon ECS service name
-  ECS_CLUSTER: practice                 # set this to your Amazon ECS cluster name
+  AWS_REGION: ap-south-1                 # set this to your preferred AWS region, e.g. us-west-1
+  ECR_REPOSITORY: de-ekta-practice-name-2           # set this to your Amazon ECR repository name
+  ECS_SERVICE: practice-cluster-service                 # set this to your Amazon ECS service name
+  ECS_CLUSTER: practice-cluster                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: task-definition.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: aws-container           # set this to the name of the container in the
+  CONTAINER_NAME: practice-contianer           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
